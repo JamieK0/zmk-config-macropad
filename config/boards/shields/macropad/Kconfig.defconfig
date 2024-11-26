@@ -1,6 +1,7 @@
 if SHIELD_MACROPAD
-            
+
 config ZMK_MACROPAD
-    default y
+    bool "Enable macropad features"
+    default y  # Enable ZMK_MACROPAD when SHIELD_MACROPAD is active.
 
 endif
