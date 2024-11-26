@@ -1,6 +1,6 @@
 if SHIELD_MACROPAD
             
 config ZMK_MACROPAD
-    default "macropad"
+    default y
 
 endif
